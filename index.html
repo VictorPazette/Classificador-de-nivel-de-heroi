@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classificação de Heróis</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Classificação de Heróis</h1>
+      <p>Digite os heróis no formato: <strong>nome : xp</strong></p>
+      <p>Para adicionar mais de 1 herói, separe-os por vírgula ","</p>
+      <p>Exemplo: <strong>Ragnar:5000, Thor:3000</strong></p>
+      <textarea
+        id="input"
+        placeholder="Digite os dados (Nome : XP) aqui..."
+      ></textarea>
+      <button id="processar">Classificar</button>
+      <button id="limpar">Limpar</button>
+      <div id="resultado"></div>
+    </div>
+    <script src="engine.js"></script>
+  </body>
+</html>
